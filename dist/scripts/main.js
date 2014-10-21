@@ -36,28 +36,8 @@ function expect(target) {
 //
 // Only add code to *THIS* section!
 
-  var Human = function(options){
-    var options = options || {};
-    this.pet = function(dog){
-      dog.status = 'happy';
-    };
-    this.feed = function(dog){
-      dog.hungry = false;
-    };
-    this.cool = (options.cool === undefined) ? false : options.cool;
-  };
-
-
- var Dog = function(options) {
-     var options = options || {};
-      this.color = options.color;
-      this.hungry = (options.hungry === undefined) ? true : options.hungry;
-      this.status = options.status || 'normal';
-   };
-
-
 // ????????
-// ???????? atticus.owner = Julia
+// ????????
 // ????????
 
 
